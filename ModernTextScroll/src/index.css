@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.pad {
+  padding: 0 clamp(4rem, 12vw, 20rem);
+}
+
+.reveal-type {
+  font-size: clamp(2rem, 5vw, 8rem);
+}
